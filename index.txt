@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form </title>
+</head>
+<body>
+    <center><h1 class="heading">Survey Form</h1></center>
+    <center><form action="backend.php" id="form">
+        First Name: <input type="text" value="First_Name">
+        <br><br>
+        Last Name: &nbsp;<input type="text" value="Last_Name">
+        <br><br>
+        Phone No.: &nbsp;<input type="number"value="91+">
+        <br><br>
+        Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email"value="someone@gmail.com">
+        <br><br>
+        password:&nbsp;&nbsp;&nbsp;<input type="password">
+        <br><br>
+        <em><a href="ForgotPassword" data="_blank">Forgot Password</a></em>
+        <br><br>
+        <a href="Submit"> <button>Submit</button> </a>
+
+    </form></center>
+    <footer class="aboutus">
+        <center>
+            <h3>ABOUT US</h3>
+        </center>
+        <span>Contact Us: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WhatsApp :91+9289240757 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Youtube :Warriors Fight Club</span>
+        <br>
+         <p>&copy; BY ABHINAV PANDEY</p>
+    </footer>
+</body>
+</html>
